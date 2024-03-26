@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7e3c4;
+  user-select: none;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  background: red;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #65251b;
+  font-size: 200px;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+input {
+  color: #452000;
+  background: #f2f0f0;
+  border: 0;
+  padding-block: 20px;
+  border-radius: 50px;
+  text-align: center;
+  font-family: "Rubik", Sans-Serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  outline: none;
+  box-shadow: 1px 1px 14px rgb(0, 0, 0, 0.2);
+}
+button {
+  color: #fff;
+  background: #f49600;
+  width: 150px;
+  border: 0;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.2);
+}
+#dataList {
+  color: #65252b;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  gap: 10px;
+}
+#li {
+  width: auto;
+
+  /*margin: 10px;*/
+  border-radius: 8px;
+  background: #f5f0e9;
+  color: #452000;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  flex-grow: 2;
+  box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.2);
+}

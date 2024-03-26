@@ -1,0 +1,19 @@
+{
+  "name": "I N P",
+  "short_name": "I N P",
+  "icons": [
+    {
+      "src": "/vlc.ico",
+      "sizes": "2040x2040",
+      "type": "image/png"
+    },
+    {
+      "src": "/vlc.ico",
+      "sizes": "1000x1000",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#fff",
+  "display": "standalone"
+}

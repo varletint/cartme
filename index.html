@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/vlc.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/vlc.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest.json" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="js/index.js"></script>
+  <title>inputVal</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1> <img class="" src="vlc.ico" alt="logo" /><br></h1>
+    <input type="text" name="" id="inputEl" value="" placeholder="Shopping List" />
+
+    <button id="add-button">Add Me</button>
+
+    <ul id="dataList"></ul>
+  </div>
+
+  <script>
+    var inputEl = document.getElementById("inputEl");
+    var button = document.querySelector("button");
+
+    button.addEventListener("click", function () {
+      let inputVal = inputEl.value;
+      let dataList = document.getElementById("dataList");
+
+      inputEl.value = "";
+      let neW = (dataList.innerHTML += `<li id = "li">${inputVal}</li>`);
+      let od;
+      console.log(neW.length)
+    });
+  </script>
+</body>
+
+</html>
